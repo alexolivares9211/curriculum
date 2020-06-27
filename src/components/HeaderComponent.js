@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { Button } from 'react-bootstrap';
+import {Button, Container} from 'react-bootstrap';
 
 const HeaderComponent = () => {
     const [screenColor, setScreenColor] = useState({
@@ -21,9 +21,10 @@ const HeaderComponent = () => {
     };
 
     return (
-        <div>
-            <checkbox onChange={onChangeColor} value={check}>{textButton}</checkbox>
-        </div>
+        <Container fluid className="p-c">
+            <h1>Curriculum</h1>
+            <h1>Alejandro Muñoz Olivares</h1>
+        </Container>
     );
 };
 
