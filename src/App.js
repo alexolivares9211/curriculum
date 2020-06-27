@@ -6,7 +6,7 @@ import Navigation from "./pages/Navigation";
 import {Container} from "react-bootstrap";
 
 const App = () => (
-    <Container className="container-primary">
+    <Container fluid className="container-primary">
         <Navigation />
         <Header />
     </Container>

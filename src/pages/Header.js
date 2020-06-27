@@ -6,17 +6,9 @@ import {Container, Col, Row} from 'react-bootstrap';
 
 const Header = () => {
     return (
-        <Container className="p-c">
-            <Row>
-                <Col>
-                    <h1>Curriculum</h1>
-                </Col>
-            </Row>
-            <Row>
-                <Col>
-                    <h1>Alejandro Muñoz Olivares</h1>
-                </Col>
-            </Row>
+        <Container fluid className="p-c">
+            <h1>Curriculum</h1>
+            <h1>Alejandro Muñoz Olivares</h1>
         </Container>
     );
 };

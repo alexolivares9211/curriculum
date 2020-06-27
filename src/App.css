@@ -1,13 +1,19 @@
-.dark-mode {
-
+body, #root {
+    width: 100%;
+    color: white;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 30px;
 }
 
 .p-c {
+    display: flex;
+    background-color: #3D205C;
+    height: 100vh;
     align-items: center;
-    border: 1px solid red;
-
+    justify-content: center;
+    flex-direction: column;
 }
 
-.container-primary {
-    width: 100vw;
+h1 {
+    font-size: 2em;
 }
