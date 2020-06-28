@@ -5,7 +5,7 @@ body, #root {
     font-size: 30px;
 }
 
-.p-c {
+.header-container {
     display: flex;
     background-color: #3D205C;
     height: 100vh;
@@ -15,5 +15,5 @@ body, #root {
 }
 
 h1 {
-    font-size: 2em;
+    font-size:  3em !important;
 }
