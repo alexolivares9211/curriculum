@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 
-class Experience extends Component {
+class ExperienceComponent extends Component {
     render() {
         return (
             <div>
-
+                
             </div>
         );
     }
 }
 
-export default Experience;
+export default ExperienceComponent;
