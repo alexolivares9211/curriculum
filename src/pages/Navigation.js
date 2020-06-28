@@ -4,9 +4,9 @@ import NavComponent from "../components/NavComponent";
 class Navigation extends Component {
     render() {
         return (
-            <div>
+            <>
                 <NavComponent/>
-            </div>
+            </>
         );
     }
 };

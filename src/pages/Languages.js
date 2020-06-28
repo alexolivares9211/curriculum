@@ -4,9 +4,9 @@ import LanguagesComponent from "../components/LanguagesComponent";
 class Languages extends Component {
     render() {
         return (
-            <div>
+            <>
                <LanguagesComponent />
-            </div>
+            </>
         );
     }
 }

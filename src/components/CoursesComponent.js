@@ -4,8 +4,8 @@ import {Container} from "react-bootstrap";
 class CoursesComponent extends Component {
     render() {
         return (
-            <Container fluid className="header-container" id="courses">
-
+            <Container fluid className="sections-container" id="courses">
+                <h1 className="title-sections">Cursos</h1>
             </Container>
         );
     }

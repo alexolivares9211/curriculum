@@ -1,6 +1,5 @@
 body, #root {
     width: 100%;
-    color: white;
     font-family: 'Tajawal', sans-serif;
     font-size: 30px;
 }
@@ -15,7 +14,11 @@ html {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    animation-duration: 5s;
+}
+.sections-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
 }
 
 .container-fluid {
@@ -26,6 +29,12 @@ html {
     background-color: #094785;
 }
 
-h1 {
+.title-header {
     font-size:  3em !important;
+    color: white;
+}
+
+.title-sections {
+    font-size: 2.5em;
+    margin-top: 10vh;
 }
