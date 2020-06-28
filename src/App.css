@@ -5,13 +5,25 @@ body, #root {
     font-size: 30px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .header-container {
     display: flex;
-    background-color: #3D205C;
     height: 100vh;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    animation-duration: 5s;
+}
+
+.container-fluid {
+    padding: 0 !important;
+}
+
+#home {
+    background-color: #094785;
 }
 
 h1 {
