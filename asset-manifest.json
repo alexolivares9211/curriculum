@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/curriculum/static/css/main.c8207260.chunk.css",
+    "main.js": "/curriculum/static/js/main.df590641.chunk.js",
+    "main.js.map": "/curriculum/static/js/main.df590641.chunk.js.map",
+    "runtime-main.js": "/curriculum/static/js/runtime-main.6f6a4d16.js",
+    "runtime-main.js.map": "/curriculum/static/js/runtime-main.6f6a4d16.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/curriculum/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.7e2a4bff.chunk.js": "/curriculum/static/js/2.7e2a4bff.chunk.js",
+    "static/js/2.7e2a4bff.chunk.js.map": "/curriculum/static/js/2.7e2a4bff.chunk.js.map",
+    "index.html": "/curriculum/index.html",
+    "precache-manifest.84de75c011906439f1c4329b27a71cb3.js": "/curriculum/precache-manifest.84de75c011906439f1c4329b27a71cb3.js",
+    "service-worker.js": "/curriculum/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/curriculum/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.c8207260.chunk.css.map": "/curriculum/static/css/main.c8207260.chunk.css.map",
+    "static/js/2.7e2a4bff.chunk.js.LICENSE.txt": "/curriculum/static/js/2.7e2a4bff.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6f6a4d16.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.7e2a4bff.chunk.js",
+    "static/css/main.c8207260.chunk.css",
+    "static/js/main.df590641.chunk.js"
+  ]
+}
