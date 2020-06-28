@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
+import ExperienceComponent from "../components/ExperienceComponent";
 
 class Experience extends Component {
     render() {
         return (
-            <div>
-
-            </div>
+            <>
+                <ExperienceComponent />
+            </>
         );
     }
 }
