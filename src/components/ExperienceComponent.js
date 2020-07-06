@@ -1,11 +1,16 @@
 import React, {Component} from 'react';
-import {Container} from "react-bootstrap";
+import {Col, Container, Row} from "react-bootstrap";
 
 class ExperienceComponent extends Component {
     render() {
         return (
             <Container fluid className="sections-container" id="experience">
-                <h1 className="title-sections">Experiencia</h1>
+                <Row noGutters xl={1}>
+                    <Col><h1 className="title-sections">Experiencia</h1></Col>
+                    <Col>
+
+                    </Col>
+                </Row>
             </Container>
         );
     }
