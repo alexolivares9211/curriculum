@@ -2,52 +2,34 @@ body, #root {
     width: 100%;
     font-family: 'Tajawal', sans-serif;
     font-size: 20px;
+    background-color: #221450;
+    color: #cccccc;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-.header-container {
-    display: flex;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.sections-container {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
-.container-fluid {
-    padding: 0 !important;
-}
-
-#home {
-    background-color: #094785;
-}
-
 .title-header {
     font-size:  3em !important;
-    color: white;
+    margin-top: 8vh;
 }
 
 .title-sections {
-    font-size: 2.5em;
-    margin-top: 10vh;
-    text-align: center;
+    font-size: 2.2em;
+    text-align: left;
 }
 
-.col-1 {
-    height: 20%;
+.second-p-about {
+    margin-bottom: 200px;
 }
 
-.sections-container p {
-    width: 67%;
-    font-size: 2.3em;
+p {
+    font-size: 1.3em;
+    line-height: 30px;
     text-align: justify;
-    margin: auto;
+}
+
+#home {
+    height: 100vh;
 }

@@ -7,7 +7,7 @@ class NavComponent extends Component {
         return (
             <>
                 <Navbar bg="dark" variant="dark" fixed="top">
-                    <Navbar.Brand href="#home">Full-Stack Jr. Developer</Navbar.Brand>
+                    <Navbar.Brand href="#home">Full-Stack Developer</Navbar.Brand>
                     <Nav className="mr-auto">
                         <Nav.Link href="#home">Inicio</Nav.Link>
                         <Nav.Link href="#about">Perfil</Nav.Link>
